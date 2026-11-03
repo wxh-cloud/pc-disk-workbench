@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)](./requirements-optional.txt)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![Release](https://img.shields.io/github/v/release/wxh-cloud/pc-disk-workbench?label=release)](https://github.com/wxh-cloud/pc-disk-workbench/releases/latest)
 
 **简体中文** ｜ [English](./README.en.md)
 
@@ -83,9 +84,10 @@ python build/launcher_native.py
 
 ### 方式四：安装包
 
-从 [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases) 下载 `个人磁盘工作台_安装包_*.exe`，双击安装到当前用户目录，自动创建桌面快捷方式与卸载入口。
+从 [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases/latest) 下载 **`PC-Disk-Workbench-Setup-v1.0.0.exe`**，双击安装到当前用户目录（无需管理员），自动创建桌面快捷方式与卸载入口。
 
-> Releases 里暂时没有安装包时，可自行打包：见 [docs/BUILD.md](docs/BUILD.md)。也可以直接跑源码（方式一 / 方式二），功能完全一致，只是少了桌面快捷方式。
+> 安装包**未做代码签名**，首次运行时 Windows SmartScreen 可能提示「未知发布者」——点「更多信息 → 仍要运行」即可。
+> 不想装 exe 也可以直接跑源码（方式一 / 方式二），功能完全一致，只是少了快捷方式和卸载入口。
 
 ---
 

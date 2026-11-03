@@ -6,6 +6,7 @@
 [![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)](./requirements-optional.txt)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
+[![Release](https://img.shields.io/github/v/release/wxh-cloud/pc-disk-workbench?label=release)](https://github.com/wxh-cloud/pc-disk-workbench/releases/latest)
 
 [简体中文](./README.md) ｜ **English**
 
@@ -83,9 +84,10 @@ Hosts the same web UI inside a native pywebview window. Requires the Edge WebVie
 
 ### 4. Installer
 
-Grab `个人磁盘工作台_安装包_*.exe` from [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases). It installs into your user profile and creates a desktop shortcut plus an uninstall entry.
+Grab **`PC-Disk-Workbench-Setup-v1.0.0.exe`** from [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases/latest). It installs into your user profile (no admin rights), and creates a desktop shortcut plus an uninstall entry.
 
-> If no installer is attached yet, build one yourself — see [docs/BUILD.md](docs/BUILD.md). Running from source (options 1 and 2) gives you the exact same features, just without the shortcut and uninstall entry.
+> The installer is **not code-signed**, so Windows SmartScreen may warn about an "unknown publisher" on first run — click *More info → Run anyway*.
+> Prefer running from source? Options 1 and 2 give you the exact same features, just without the shortcut and uninstall entry.
 
 ---
 
