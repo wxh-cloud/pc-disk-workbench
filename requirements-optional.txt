@@ -1,0 +1,13 @@
+# PC Disk Workbench —— 可选依赖
+#
+# 核心功能（server.py / index.html / app_win.py）只用 Python 标准库，
+# 不需要安装这里的任何东西就能运行：python server.py 或 python app_win.py
+#
+# 只有以下场景才需要：
+
+# ① WebView2 桌面窗口版（build/launcher_native.py）
+#    需要系统已安装 Edge WebView2 运行时（Win11 自带）
+pywebview>=4.4
+
+# ② 自行打包成 exe（build/*.spec）
+pyinstaller>=6.0

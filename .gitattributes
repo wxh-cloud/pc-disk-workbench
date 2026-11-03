@@ -1,0 +1,7 @@
+# 统一换行：源码走 LF，Windows 批处理必须 CRLF（否则 cmd 会把多行连成一行解析）
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ico binary
+*.png binary
+*.exe binary
