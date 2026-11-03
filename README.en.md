@@ -48,7 +48,7 @@ No network access, no uploads, no admin rights required. The backend binds to `1
 ### 1. Web mode (simplest)
 
 ```bash
-git clone https://github.com/<your-name>/pc-disk-workbench.git
+git clone https://github.com/wxh-cloud/pc-disk-workbench.git
 cd pc-disk-workbench
 python server.py
 ```
@@ -79,7 +79,7 @@ Hosts the same web UI inside a native pywebview window. Requires the Edge WebVie
 
 ### 4. Installer
 
-Grab `个人磁盘工作台_安装包_*.exe` from [Releases](https://github.com/<your-name>/pc-disk-workbench/releases). It installs into your user profile and creates a desktop shortcut plus an uninstall entry.
+Grab `个人磁盘工作台_安装包_*.exe` from [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases). It installs into your user profile and creates a desktop shortcut plus an uninstall entry.
 
 ---
 

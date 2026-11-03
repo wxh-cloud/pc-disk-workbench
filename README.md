@@ -48,7 +48,7 @@ PC Disk Workbench 就是补上这一段：
 ### 方式一：网页版（最简单）
 
 ```bash
-git clone https://github.com/<your-name>/pc-disk-workbench.git
+git clone https://github.com/wxh-cloud/pc-disk-workbench.git
 cd pc-disk-workbench
 python server.py
 ```
@@ -79,7 +79,7 @@ python build/launcher_native.py
 
 ### 方式四：安装包
 
-从 [Releases](https://github.com/<your-name>/pc-disk-workbench/releases) 下载 `个人磁盘工作台_安装包_*.exe`，双击安装到当前用户目录，自动创建桌面快捷方式与卸载入口。
+从 [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases) 下载 `个人磁盘工作台_安装包_*.exe`，双击安装到当前用户目录，自动创建桌面快捷方式与卸载入口。
 
 ---
 
