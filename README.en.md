@@ -81,6 +81,8 @@ Hosts the same web UI inside a native pywebview window. Requires the Edge WebVie
 
 Grab `个人磁盘工作台_安装包_*.exe` from [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases). It installs into your user profile and creates a desktop shortcut plus an uninstall entry.
 
+> If no installer is attached yet, build one yourself — see [docs/BUILD.md](docs/BUILD.md). Running from source (options 1 and 2) gives you the exact same features, just without the shortcut and uninstall entry.
+
 ---
 
 ## Safety model

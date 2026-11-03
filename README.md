@@ -81,6 +81,8 @@ python build/launcher_native.py
 
 从 [Releases](https://github.com/wxh-cloud/pc-disk-workbench/releases) 下载 `个人磁盘工作台_安装包_*.exe`，双击安装到当前用户目录，自动创建桌面快捷方式与卸载入口。
 
+> Releases 里暂时没有安装包时，可自行打包：见 [docs/BUILD.md](docs/BUILD.md)。也可以直接跑源码（方式一 / 方式二），功能完全一致，只是少了桌面快捷方式。
+
 ---
 
 ## 安全边界
