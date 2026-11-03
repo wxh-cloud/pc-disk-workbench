@@ -24,6 +24,10 @@ PC Disk Workbench fills that gap:
 
 No network access, no uploads, no admin rights required. The backend binds to `127.0.0.1` only.
 
+![Overview screen](docs/images/overview.png)
+
+<p align="center"><sub>Native UI (<code>python app_win.py</code>) · Overview — space distribution, file types, 30-day growth, largest files and cleanup suggestions</sub></p>
+
 ---
 
 ## Features

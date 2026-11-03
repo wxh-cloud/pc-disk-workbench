@@ -24,6 +24,10 @@ PC Disk Workbench 就是补上这一段：
 
 整个过程**不联网、不上传、不需要管理员权限**，后端只监听 `127.0.0.1`。
 
+![总览界面](docs/images/overview.png)
+
+<p align="center"><sub>原生界面（<code>python app_win.py</code>）· 总览页 —— 空间分布、文件类型、30 天增长趋势、大文件排行与清理建议</sub></p>
+
 ---
 
 ## 特性
